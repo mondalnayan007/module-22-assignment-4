@@ -21,9 +21,7 @@ function  bestTeam( player1, player2 ) {
 
 }
 
-const seraTeam = bestTeam({ name: "Germany", foul: 10, cardY: 1, cardR: 1 },
-{ name: "France", foul: 10, cardY: 2, cardR: 1 }
-
+const seraTeam = bestTeam({ name: "Germany", foul: 10, cardY: 1, cardR: 1 },"France"
 
 )
 

@@ -17,6 +17,6 @@ function totalFine( fare ) {
     
 }
 
-const Fine =  totalFine(0)
+const Fine =  totalFine("Gorib tai ticket katinai")
 
 console.log(Fine);

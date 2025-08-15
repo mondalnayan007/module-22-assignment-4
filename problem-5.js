@@ -42,7 +42,7 @@ function  resultReport( marks ) {
         return markSheet;
 }
 
-const finalScore = resultReport([]);
+const finalScore = resultReport(100);
 console.log(finalScore);
 
 

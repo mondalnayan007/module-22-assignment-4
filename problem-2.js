@@ -7,7 +7,7 @@ function  onlyCharacter( str ) {
           if(typeof(str) != "string"){
             return "Invalid";
           }
-         newStr = str.replaceAll(" ","");
+         newStr = str.split(" ").join("");
             return newStr.toUpperCase();
          
 }
